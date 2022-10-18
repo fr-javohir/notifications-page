@@ -11,6 +11,7 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Frontend Mentor | Notifications page</title>
 
@@ -26,21 +27,22 @@
     </style>
   </head>
   <body>
-    <div class="container">
+    <div class="wrapper">
+    <div class="content">
       <header class="header">
-        <h2 class="__title">Notifications <span class="not-number">3</span></h2>
-        <button class="btn__btn-transparent">Mark all as read</button>
+        <h2 class="header__title">Notifications <span class="not-number">3</span></h2>
+        <button class="btn btn-transparent">Mark all as read</button>
       </header>
       <main>
         <ul class="notification__list">
-          <li class="notifation__item">
+          <li class="notification__item">
             <div class="user__img">
               <img src="assets/images/avatar-mark-webber.webp" alt="mark" />
             </div>
             <div class="notification__data">
               <div class="notification__info">
-                <h4 class="notication__from">Mark Webber</h4>
-                <p class="notifiacion__text">reacted to your recent post</p>
+                <h4 class="notification__from">Mark Webber</h4>
+                <p class="notification__text">reacted to your recent post</p>
                 <span class="notification__post">My first tournament today!</span>
               </div>
               <span class="notification__time">
@@ -48,28 +50,28 @@
               </span>
             </div>
           </li>
-          <li class="notifation__item">
+          <li class="notification__item">
             <div class="user__img">
               <img src="assets/images/avatar-angela-gray.webp" alt="Angela" />
             </div>
             <div class="notification__data">
               <div class="notification__info">
-                <h4 class="notication__from">Angela Gray</h4>
-                <p class="notifiacion__text">followed you 5m ago</p>
+                <h4 class="notification__from">Angela Gray</h4>
+                <p class="notification__text">followed you 5m ago</p>
               </div>
               <span class="notification__time">
                 5m ago
               </span>
             </div>
           </li>
-          <li class="notifation__item">
+          <li class="notification__item">
             <div class="user__img">
               <img src="assets/images/avatar-jacob-thompson.webp" alt="Jacob" />
             </div>
             <div class="notification__data">
               <div class="notification__info">
-                <h4 class="notication__from">Jacob Thompson</h4>
-                <p class="notifiacion__text">has joined your group</p>
+                <h4 class="notification__from">Jacob Thompson</h4>
+                <p class="notification__text">has joined your group</p>
                 <span class="notification__chess">Chess Club</span>
               </div>
               <span class="notification__time">
@@ -77,50 +79,50 @@
               </span>
             </div>
           </li>
-          <li class="noticifation__item-message">
-            <div class="notifation__item">
+          <li class="notification__item-message">
+            <div class="notification__item">
               <div class="user__img">
                 <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="avatar-rizky-hasanuddin" />
               </div>
               <div class="notification__data">
                 <div class="notification__info">
-                  <h4 class="notication__from"> Rizky Hasanuddin</h4>
-                  <p class="notifiacion__text"> sent you a private message</p>
+                  <h4 class="notification__from"> Rizky Hasanuddin</h4>
+                  <p class="notification__text"> sent you a private message</p>
                 </div>
                 <span class="notification__time">
                   5 days ago
                 </span>
               </div>
             </div>
-            <div class="noticication__message">
+            <div class="notification__message">
               <p>
                 Hello, thanks for setting up the Chess Club. I've been a member for a few
                 weeks now and I'm already having lots of fun and improving my game. 
               </p>
             </div>
           </li>
-          <li class="notifation__item">
+          <li class="notification__item">
             <div class="user__img">
               <img src="assets/images/avatar-kimberly-smith.webp" alt="Jacob" />
             </div>
             <div class="notification__data">
               <div class="notification__info">
-                <h4 class="notication__from">Kimberly Smith</h4>
-                <p class="notifiacion__text">commented on your picture</p>
+                <h4 class="notification__from">Kimberly Smith</h4>
+                <p class="notification__text">commented on your picture</p>
               </div>
               <span class="notification__time">
                 1 week ago
               </span>
             </div>
           </li>
-          <li class="notifation__item">
+          <li class="notification__item">
             <div class="user__img">
               <img src="assets/images/avatar-nathan-peterson.webp" alt="Jacob" />
             </div>
             <div class="notification__data">
               <div class="notification__info">
-                <h4 class="notication__from">Nathan Peterson</h4>
-                <p class="notifiacion__text">reacted to your recent post</p>
+                <h4 class="notification__from">Nathan Peterson</h4>
+                <p class="notification__text">reacted to your recent post</p>
                 <span class="notification__post">
                   5 end-game strategies to increase your win rate
                 </span>
@@ -130,14 +132,14 @@
               </span>
             </div>
           </li>
-          <li class="notifation__item">
+          <li class="notification__item">
             <div class="user__img">
               <img src="assets/images/avatar-anna-kim.webp" alt="Jacob" />
             </div>
             <div class="notification__data">
               <div class="notification__info">
-                <h4 class="notication__from">Anna Kim</h4>
-                <p class="notifiacion__text">left the group</p>
+                <h4 class="notification__from">Anna Kim</h4>
+                <p class="notification__text">left the group</p>
                 <span class="notification__chess">
                   Chess Club 2 weeks ago
                 </span>
@@ -150,6 +152,8 @@
         </ul>
       </main>
     </div>
+  </div>
+
 
        
     
